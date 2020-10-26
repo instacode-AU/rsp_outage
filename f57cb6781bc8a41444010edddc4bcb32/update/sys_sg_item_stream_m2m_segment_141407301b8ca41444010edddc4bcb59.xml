@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Status Message Item Stream">d81407301b8ca41444010edddc4bcb58</item_stream>
+        <segment display_value="Status Message Item Stream Segment">901407301b8ca41444010edddc4bcb58</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>jamestomlinson_sa</sys_created_by>
+        <sys_created_on>2020-10-22 01:32:49</sys_created_on>
+        <sys_id>141407301b8ca41444010edddc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="nbn Partner Ops Control" source="x_nbnl_nbn_partner">f57cb6781bc8a41444010edddc4bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="nbn Partner Ops Control">f57cb6781bc8a41444010edddc4bcb32</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_141407301b8ca41444010edddc4bcb59</sys_update_name>
+        <sys_updated_by>jamestomlinson_sa</sys_updated_by>
+        <sys_updated_on>2020-10-22 01:32:49</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

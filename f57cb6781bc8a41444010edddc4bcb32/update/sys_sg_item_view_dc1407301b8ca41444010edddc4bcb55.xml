@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="nbn Partner Ops Control Status Message">5c1407301b8ca41444010edddc4bcb54</data_item>
+        <dependency_fields>display_on_service_portal,impact_description,incident_number,number,priority,start_date</dependency_fields>
+        <item_view_json>{"Alignment":"Stretch","Children":[{"Alignment":"Stretch","Children":[{"Alignment":"Left","Children":[{"Font":{"Weight":"semibold","Size":13},"Width":100,"Height":21,"CornerRadius":2,"CellId":"display_on_service_portal","TextAlignment":"Center","MaxLines":1,"studio_template_field_id":"E1","Text":"","TextColor":"#293e40","BackgroundColor":"#f1f1f1","Type":"Text"}],"Orientation":"Vertical","Distribution":"Auto","Margin":{"Right":12},"Type":"ViewGroup"},{"Alignment":"Right","Children":[{"Font":{"Weight":"regular","Size":13},"CellId":"impact_description","TextAlignment":"Right","MaxLines":1,"studio_template_field_id":"E2","Text":"","TextColor":"#7d8a8c","Type":"Text"}],"Orientation":"Vertical","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Horizontal","Distribution":"Equal","Type":"ViewGroup"},{"Font":{"Weight":"regular","Size":18},"CellId":"incident_number","TextAlignment":"Left","MaxLines":2,"studio_template_field_id":"E3","Text":"","TextColor":"#293e40","Margin":{"Top":9},"Type":"Text"},{"Alignment":"Left","Children":[{"Alignment":"Center","Children":[{"Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","studio_template_is_label":true,"Text":"${number}","TextColor":"#7d8a8c","Margin":{"Right":8},"Type":"Text"},{"Width":22,"Height":22,"CornerRadius":11,"CellId":"priority","Scaling":"Fill","studio_template_field_id":"E5","Margin":{"Right":6},"Type":"Image"},{"Font":{"Weight":"regular","Size":13},"CellId":"number","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Text":"","TextColor":"#293e40","Type":"Text"}],"Orientation":"Horizontal","Distribution":"Auto","Margin":{"Top":9},"Type":"ViewGroup"},{"Alignment":"Center","Children":[{"Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","studio_template_is_label":true,"Text":"${start_date}","TextColor":"#7d8a8c","Margin":{"Right":8},"Type":"Text"},{"Font":{"Weight":"regular","Size":13},"CellId":"start_date","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Text":"","TextColor":"#293e40","Type":"Text"}],"Orientation":"Horizontal","Distribution":"Auto","Margin":{"Top":7},"Type":"ViewGroup"}],"Orientation":"Vertical","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Vertical","Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Margin":{"Bottom":15,"Top":17},"Type":"ViewGroup"}</item_view_json>
+        <name>Status Message Detail Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>jamestomlinson_sa</sys_created_by>
+        <sys_created_on>2020-10-22 01:32:49</sys_created_on>
+        <sys_id>dc1407301b8ca41444010edddc4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status Message Detail Screen Item View</sys_name>
+        <sys_package display_value="nbn Partner Ops Control" source="x_nbnl_nbn_partner">f57cb6781bc8a41444010edddc4bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="nbn Partner Ops Control">f57cb6781bc8a41444010edddc4bcb32</sys_scope>
+        <sys_update_name>sys_sg_item_view_dc1407301b8ca41444010edddc4bcb55</sys_update_name>
+        <sys_updated_by>jamestomlinson_sa</sys_updated_by>
+        <sys_updated_on>2020-10-22 01:32:49</sys_updated_on>
+        <table>x_nbnl_nbn_partner_status_message</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

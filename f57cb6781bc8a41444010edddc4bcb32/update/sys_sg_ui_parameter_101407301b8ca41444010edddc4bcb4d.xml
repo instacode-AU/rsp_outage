@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (RSP Service Status)">5c1407301b8ca41444010edddc4bcb4a</button>
+        <button_parent_table>x_nbnl_nbn_partner_rsp_service_status</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>rsp_message</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>RSP message</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>rsp_message</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>jamestomlinson_sa</sys_created_by>
+        <sys_created_on>2020-10-22 01:32:49</sys_created_on>
+        <sys_id>101407301b8ca41444010edddc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RSP message</sys_name>
+        <sys_package display_value="nbn Partner Ops Control" source="x_nbnl_nbn_partner">f57cb6781bc8a41444010edddc4bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="nbn Partner Ops Control">f57cb6781bc8a41444010edddc4bcb32</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_101407301b8ca41444010edddc4bcb4d</sys_update_name>
+        <sys_updated_by>jamestomlinson_sa</sys_updated_by>
+        <sys_updated_on>2020-10-22 01:32:49</sys_updated_on>
+        <table_name>x_nbnl_nbn_partner_rsp_service_status</table_name>
+    </sys_sg_ui_parameter>
+</record_update>

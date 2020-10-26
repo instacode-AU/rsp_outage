@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (RSP Service Status)</name>
+        <query_condition table="x_nbnl_nbn_partner_rsp_service_status">sys_idSTARTSWITH{{RSP Service Status sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{RSP Service Status sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>jamestomlinson_sa</sys_created_by>
+        <sys_created_on>2020-10-22 01:32:49</sys_created_on>
+        <sys_id>d81407301b8ca41444010edddc4bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (RSP Service Status)</sys_name>
+        <sys_package display_value="nbn Partner Ops Control" source="x_nbnl_nbn_partner">f57cb6781bc8a41444010edddc4bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="nbn Partner Ops Control">f57cb6781bc8a41444010edddc4bcb32</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_d81407301b8ca41444010edddc4bcb46</sys_update_name>
+        <sys_updated_by>jamestomlinson_sa</sys_updated_by>
+        <sys_updated_on>2020-10-22 01:32:49</sys_updated_on>
+        <table>x_nbnl_nbn_partner_rsp_service_status</table>
+        <template>internal_status={{RSP Service Status internal_status}}^number={{RSP Service Status number}}^rsp_message={{RSP Service Status rsp_message}}^rsp_status={{RSP Service Status rsp_status}}^service={{RSP Service Status service}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>service_status_alert</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Service Status Alert</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jamestomlinson_sa</sys_created_by>
+        <sys_created_on>2020-10-22 02:05:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c37b8fb41b00e41444010edddc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Status Alert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="nbn Partner Ops Control" source="x_nbnl_nbn_partner">f57cb6781bc8a41444010edddc4bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="nbn Partner Ops Control">f57cb6781bc8a41444010edddc4bcb32</sys_scope>
+        <sys_update_name>sys_hub_flow_c37b8fb41b00e41444010edddc4bcba8</sys_update_name>
+        <sys_updated_by>jamestomlinson_sa</sys_updated_by>
+        <sys_updated_on>2020-10-22 02:05:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=c37b8fb41b00e41444010edddc4bcba8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c37b8fb41b00e41444010edddc4bcba8^sys_idNOT IN4f7b8fb41b00e41444010edddc4bcbaa"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c37b8fb41b00e41444010edddc4bcba8</id>
+        <name>Service Status Alert</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>jamestomlinson_sa</sys_created_by>
+        <sys_created_on>2020-10-22 02:05:15</sys_created_on>
+        <sys_id>4f7b8fb41b00e41444010edddc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="nbn Partner Ops Control">f57cb6781bc8a41444010edddc4bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jamestomlinson_sa</sys_updated_by>
+        <sys_updated_on>2020-10-22 02:05:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
