@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Status Message" max_length="40" name="x_nbnl_nbn_partner_status_message" sizeclass="2" type="collection">
+        <element label="Display on Service Portal" max_length="40" name="display_on_service_portal" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact description" max_length="5000" name="impact_description" type="string"/>
+        <element attributes="encode_utf8=false" label="Incident number" max_length="32" name="incident_number" reference="incident" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Priority" max_length="40" name="priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="start_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="incident_number"/>
+        </index>
+    </element>
+</database>
