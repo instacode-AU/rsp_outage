@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="RSP Service Status" max_length="40" name="x_nbnl_nbn_partner_rsp_service_status" sizeclass="7" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="operational" label="Internal Status" max_length="40" name="internal_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-RSP impacting issue" value="no_rsp_impact"/>
+                <element inactive_on_update="false" label="Operational" value="operational"/>
+                <element inactive_on_update="false" label="Planned maintainence" value="planned_maintainence"/>
+                <element inactive_on_update="false" label="Potential Issue" value="potential_issue"/>
+                <element inactive_on_update="false" label="RSP impacting issue" value="rsp_impact"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RSP message" max_length="40" name="rsp_message" reference="x_nbnl_nbn_partner_status_message" reference_qual="display_on_service_portal=true^EQ" reference_qual_condition="display_on_service_portal=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="operational" label="RSP Status" max_length="40" name="rsp_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Operational" value="operational"/>
+                <element inactive_on_update="false" label="Planned maintainance" value="planned_maintainance"/>
+                <element inactive_on_update="false" label="Potential issue" value="potential_issue"/>
+                <element inactive_on_update="false" label="Service degraded" value="service_degraded"/>
+                <element inactive_on_update="false" label="Service unavailable" value="service_unavailable"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Service" max_length="32" name="service" reference="cmdb_ci_service" type="reference"/>
+        <index name="index">
+            <element name="service"/>
+        </index>
+    </element>
+</database>

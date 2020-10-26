@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">c4140ffc1b0ca41444010edddc4bcb9f</icon>
+        <item_view display_value="Status Message Detail Screen Item View">dc1407301b8ca41444010edddc4bcb55</item_view>
+        <name>Status Message Form Screen</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>jamestomlinson_sa</sys_created_by>
+        <sys_created_on>2020-10-22 01:32:49</sys_created_on>
+        <sys_id>501407301b8ca41444010edddc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status Message Form Screen</sys_name>
+        <sys_package display_value="nbn Partner Ops Control" source="x_nbnl_nbn_partner">f57cb6781bc8a41444010edddc4bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="nbn Partner Ops Control">f57cb6781bc8a41444010edddc4bcb32</sys_scope>
+        <sys_update_name>sys_sg_form_screen_501407301b8ca41444010edddc4bcb57</sys_update_name>
+        <sys_updated_by>jamestomlinson_sa</sys_updated_by>
+        <sys_updated_on>2020-10-22 01:32:49</sys_updated_on>
+        <table>x_nbnl_nbn_partner_status_message</table>
+    </sys_sg_form_screen>
+</record_update>
